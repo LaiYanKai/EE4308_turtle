@@ -1,5 +1,6 @@
 <launch>
   <include file="$(find turtlebot3_bringup)/launch/turtlebot3_robot.launch" ns="turtle">
     <arg name="multi_robot_name" value="turtle" />
+    <arg name="set_lidar_frame_id" value="turtle/base_scan" />
   </include>
 </launch>
