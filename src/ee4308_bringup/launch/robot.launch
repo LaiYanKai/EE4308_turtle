@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find turtlebot3_bringup)/launch/turtlebot3_robot.launch" ns="turtle">
+    <arg name="multi_robot_name" value="turtle" />
+  </include>
+</launch>
