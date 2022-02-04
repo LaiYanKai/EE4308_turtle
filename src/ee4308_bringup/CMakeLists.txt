@@ -10,7 +10,6 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   std_msgs
 )
-find_package(OpenCV REQUIRED)
 
 catkin_package(
   CATKIN_DEPENDS 
